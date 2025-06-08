@@ -3,10 +3,10 @@
     {
       "cdType": "REGULAR",
       "docType": "121",
-      "intendedFor": "APM0029",
+      "intendedFor": "AAA123",
       "title": "Sys Req Document Title",
       "serialNumber": "4",
-      "docNr": "121-APM0029-004",
+      "docNr": "121-AAA123-004",
       "security": "Internal",
       "date": "2023-01-31 16:29:53.114 UTC",
       "editedHeaders": {
