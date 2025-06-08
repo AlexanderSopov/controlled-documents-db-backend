@@ -38,7 +38,8 @@ This step is pretty clunky, and WORK_IN_PROGRESS (See "What to do" below). You w
 2. Ask Mortne for an introduction of the plugin and what it does. Get to know its features and why it's for.
 3. Ask Morten to explain what an "intendedFor" is (There are projects like "PD010" and products like "ABC0010" he'll explain the difference)
 4. Ask Morten about different Document Types and how they relate to templates
-5. Study the database schema ![Database Diagram](/docs/images/DatabaseSchema.jpg)
+5. Study the database schema as well as the migration file `/migrations/migrations/1749294374040-InitTables.ts` on how these schemas have been implemented in the DB (migration file overrides the schema with some small modifications)
+![Database Diagram](/docs/images/DatabaseSchema.jpg)
 6. Study the JSON file inside of `/migrations/seed/cd.json`. This is a JSON export of the Bandana Storage (only a few entries)
 7. Finish the migration file `/migrations/migrations/1749344057759-SeedTablesWithData.ts` to parse the old data in the json and match it onto the new database schema above.
 
