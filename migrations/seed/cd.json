@@ -1,0 +1,197 @@
+{
+  "com.qamcom.confluence.plugins.controlled__documents.model.RegularReleasedDocuments": [
+    {
+      "cdType": "REGULAR",
+      "docType": "121",
+      "intendedFor": "APM0029",
+      "title": "Sys Req Document Title",
+      "serialNumber": "4",
+      "docNr": "121-APM0029-004",
+      "security": "Internal",
+      "date": "2023-01-31 16:29:53.114 UTC",
+      "editedHeaders": {
+        "entry": [
+          {
+            "int": "45",
+            "com.qamcom.confluence.plugins.controlled__documents.model.DocuHeader": {
+              "title": "Sys Req Document Title",
+              "security": "Internal",
+              "date": "",
+              "preparedBy": "Tale Of The Tape"
+            }
+          },
+          {
+            "int": "53",
+            "com.qamcom.confluence.plugins.controlled__documents.model.DocuHeader": {
+              "title": "Sys Req Document Title",
+              "security": "Internal",
+              "date": "",
+              "preparedBy": "Tale Of The Tape"
+            }
+          },
+          {
+            "int": "71",
+            "com.qamcom.confluence.plugins.controlled__documents.model.DocuHeader": {
+              "validationAware": "",
+              "title": "Sys Req Document Title",
+              "security": "Internal",
+              "date": "",
+              "preparedBy": "Kathlein Kennedy"
+            }
+          }
+        ]
+      },
+      "releases": {
+        "comparator": "",
+        "entry": [
+          {
+            "string": "32",
+            "com.qamcom.confluence.plugins.controlled__documents.model.Release": {
+              "release": "A",
+              "comment": "<p> RICH TEXT COMMENT IN HTML </p>",
+              "pageVersion": 32,
+              "user": "Cpt Cortes",
+              "pdfUrl": "http://qamcom.se/some/path/to/pdf/file",
+              "date": "2023-02-10 14:06:57.18 UTC"
+            }
+          },
+          {
+            "string": "36",
+            "com.qamcom.confluence.plugins.controlled__documents.model.Release": {
+              "release": "B",
+              "comment": "<p> RICH TEXT COMMENT IN HTML </p>",
+              "pageVersion": 36,
+              "user": "Tale Of The Tape",
+              "pdfUrl": "http://qamcom.se/some/path/to/pdf/file",
+              "date": "2023-03-14 10:52:43.744"
+            }
+          },
+          {
+            "string": "41",
+            "com.qamcom.confluence.plugins.controlled__documents.model.Release": {
+              "release": "C",
+              "comment": "<p> RICH TEXT COMMENT IN HTML </p>",
+              "pageVersion": 41,
+              "user": "Tale Of The Tape",
+              "pdfUrl": "http://qamcom.se/some/path/to/pdf/file",
+              "date": "2023-05-01 15:28:11.184"
+            }
+          },
+          {
+            "string": "42",
+            "com.qamcom.confluence.plugins.controlled__documents.model.Release": {
+              "release": "D",
+              "comment": "<p> RICH TEXT COMMENT IN HTML </p>",
+              "pageVersion": 42,
+              "user": "Tale Of The Tape",
+              "pdfUrl": "http://qamcom.se/some/path/to/pdf/file",
+              "date": "2023-12-11 13:18:57.467"
+            }
+          },
+          {
+            "string": "43",
+            "com.qamcom.confluence.plugins.controlled__documents.model.Release": {
+              "release": "E",
+              "comment": "<p> RICH TEXT COMMENT IN HTML </p>",
+              "pageVersion": 43,
+              "user": "Tale Of The Tape",
+              "pdfUrl": "http://qamcom.se/some/path/to/pdf/file",
+              "date": "2024-05-26 22:00:00.0 UTC"
+            }
+          },
+          {
+            "string": "53",
+            "com.qamcom.confluence.plugins.controlled__documents.model.Release": {
+              "release": "F",
+              "comment": "<p> RICH TEXT COMMENT IN HTML </p>",
+              "pageVersion": 53,
+              "user": "Tale Of The Tape",
+              "pdfUrl": "http://qamcom.se/some/path/to/pdf/file",
+              "date": "2024-09-11 22:00:00.0 UTC"
+            }
+          },
+          {
+            "string": "54",
+            "com.qamcom.confluence.plugins.controlled__documents.model.Release": {
+              "release": "G",
+              "comment": "<p> RICH TEXT COMMENT IN HTML </p>",
+              "pageVersion": 54,
+              "user": "Tale Of The Tape",
+              "pdfUrl": "http://qamcom.se/some/path/to/pdf/file",
+              "date": "2024-09-11 22:00:00.0 UTC"
+            }
+          },
+          {
+            "string": "57",
+            "com.qamcom.confluence.plugins.controlled__documents.model.Release": {
+              "release": "H",
+              "comment": "<p> RICH TEXT COMMENT IN HTML </p>",
+              "pageVersion": 57,
+              "user": "Tale Of The Tape",
+              "pdfUrl": "http://qamcom.se/some/path/to/pdf/file",
+              "date": "2024-09-11 22:00:00.0 UTC"
+            }
+          },
+          {
+            "string": "64",
+            "com.qamcom.confluence.plugins.controlled__documents.model.Release": {
+              "release": "I",
+              "comment": "<p> RICH TEXT COMMENT IN HTML </p>",
+              "pageVersion": 64,
+              "user": "Kathleen Kennedy",
+              "pdfUrl": "http://qamcom.se/some/path/to/pdf/file",
+              "date": "2024-12-18 11:13:22.966"
+            }
+          },
+          {
+            "string": "69",
+            "com.qamcom.confluence.plugins.controlled__documents.model.Release": {
+              "release": "J",
+              "comment": "<p> RICH TEXT COMMENT IN HTML </p>",
+              "pageVersion": 69,
+              "user": "Kathleen Kennedy",
+              "pdfUrl": "http://qamcom.se/some/path/to/pdf/file",
+              "date": "2025-01-30 09:12:47.858"
+            }
+          },
+          {
+            "string": "70",
+            "com.qamcom.confluence.plugins.controlled__documents.model.Release": {
+              "release": "K",
+              "comment": "<p> RICH TEXT COMMENT IN HTML </p>",
+              "pageVersion": 70,
+              "user": "Kathleen Kennedy",
+              "pdfUrl": "http://qamcom.se/some/path/to/pdf/file",
+              "date": "2025-03-06 23:00:00.0 UTC"
+            }
+          }
+        ]
+      },
+      "organization": "QT or QRT",
+      "pageId": "1231856512324"
+    }
+  ],
+  "com.qamcom.confluence.plugins.controlled__documents.model.JCDReleasedDocuments": [
+    {
+      "validationAware": "",
+      "permitted": false,
+      "skipAccessCheck": false,
+      "servletRequestSupplier": "",
+      "cdType": "JCD",
+      "docType": "Non-disclosure agreement",
+      "intendedFor": "QDD",
+      "title": "NDA Science at Qamcom",
+      "serialNumber": "4178",
+      "docNr": "QDD-4178",
+      "security": "Internal",
+      "date": "2025-05-16 12:43:07.624 UTC",
+      "editedHeaders": "",
+      "releases": {
+        "comparator": ""
+      },
+      "issueType": "Agreement Document",
+      "jiraInstanceAlias": "JIRA Qamcom",
+      "pageId": "1232856969725"
+    }
+  ]
+}

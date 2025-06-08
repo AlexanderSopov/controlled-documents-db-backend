@@ -1,0 +1,54 @@
+version: "3.8"
+services:
+  nginx_service:
+    image: nginx
+    restart: always
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - "2330:80"
+    depends_on:
+        - cd_mariadb
+        - cd_adminer
+        - cd_backend_service
+  cd_backend_service:
+    image: amazon/aws-lambda-nodejs:18
+    command: index.handler
+    # build:
+    #   context: ./
+    #   dockerfile: docker-files/ControlledDocumentsBackendDockerfile
+    #   args:
+    #     PACKAGE_PATH: controlled_documents_backend
+    restart: always
+    # env_file: ./.env
+    volumes:
+      - ./backend/dist/:/var/task
+      - /var/task/node_modules/
+  cd_mariadb:
+    image: mariadb:latest
+    volumes:
+      - ./mariadb:/var/lib/mysql
+    working_dir: /home/node/app
+    # env_file: ./.env
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=controlled_documents
+      - MYSQL_USER=myuser
+      - MYSQL_PASSWORD=mypassword
+    restart: always
+  cd_adminer:
+    image: adminer
+    restart: always
+  cd_migrations:
+    image: node:20-buster
+    command: sleep infinity
+    volumes:
+      - ./migrations:/home/node/app
+      - /home/node/app/node_modules/
+    environment:
+      - DB_HOST=cd_mariadb
+      - DB_USER=myuser
+      - DB_PASSWORD=mypassword
+      - DB_NAME=controlled_documents
+    depends_on:
+      - cd_mariadb

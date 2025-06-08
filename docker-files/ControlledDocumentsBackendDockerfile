@@ -1,0 +1,7 @@
+# syntax=docker/dockerfile:1
+FROM node:20-buster
+ARG PACKAGE_PATH
+WORKDIR /${PACKAGE_PATH}
+# Comment out below if you wish to run from local node_modules
+COPY ../${PACKAGE_PATH}/package.json .
+RUN npm i

@@ -1,0 +1,4 @@
+**/*.DS_Store
+mariadb
+**/*node_modules
+**/*dist
